@@ -51,7 +51,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1>Cachet keeps your <strong>customers</strong>, <strong>developers</strong>, <strong>share-holders</strong> up to date with your products status.</h1>
+                    <h1>Cachet keeps your <strong>customers</strong>, <strong>developers</strong> &amp; <strong>share-holders</strong> up to date with your products status.</h1>
                     <button class="btn btn-conf btn-green">Learn More</button>
                     <button class="btn btn-conf btn-clear"><i class='ion-social-github'></i> Download from GitHub</button>
                 </div>

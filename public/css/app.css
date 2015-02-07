@@ -6272,7 +6272,7 @@ button.close {
 body {
   background: #fff;
   margin: 0;
-  color: #5a5a5a; }
+  color: #333; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
@@ -6338,12 +6338,12 @@ html, body {
 ::-moz-selection {
   color: #fff;
   text-shadow: none;
-  background: #6DB81C; }
+  background: #e8e8e8; }
 
 ::selection {
   color: #fff;
   text-shadow: none;
-  background: #6DB81C; }
+  background: #e8e8e8; }
 
 *, *:after, *:before {
   box-sizing: border-box;
@@ -6355,7 +6355,7 @@ a {
   margin: 0;
   text-decoration: none;
   transition: background-color .4s linear, color .4s linear;
-  color: #7ed321; }
+  color: #6DB81C; }
   a:hover, a:focus {
     text-decoration: none;
     color: #696E74; }
@@ -6423,7 +6423,7 @@ input {
   text-transform: uppercase;
   padding: 14px 28px 13px 28px; }
 .btn.btn-green {
-  background: #7ED321;
+  background: #6DB81C;
   color: white; }
 .btn.btn-clear {
   background: transparent;
@@ -6467,7 +6467,7 @@ section {
       font-weight: 700;
       letter-spacing: 1px; }
   section.grey {
-    background: #f0f3f4;
+    background: #ecf0f1;
     padding-bottom: 80px;
     padding-top: 80px; }
 

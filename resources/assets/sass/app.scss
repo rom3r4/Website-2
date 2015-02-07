@@ -1,5 +1,6 @@
 @import "modules/bootstrap";
 @import "./vendor/bower_components/ionicons/scss/ionicons";
+@import "palette";
 
 /*  ################################################################
     1. GENERAL STRUCTURES
@@ -16,7 +17,7 @@
 body {
     background: #fff;
     margin: 0;
-    color: #5a5a5a;
+    color: $cachet-base-dark;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,12 +71,12 @@ body {
 ::-moz-selection  {
     color: #fff;
     text-shadow:none;
-    background:#6DB81C;
+    background:$cachet-gray-light;
 }
 ::selection {
     color: #fff;
     text-shadow:none;
-    background:#6DB81C;
+    background:$cachet-gray-light;
 }
 *,
 *:after,
@@ -90,7 +91,7 @@ a {
     margin: 0;
     text-decoration: none;
     transition: background-color .4s linear, color .4s linear;
-    color: #7ed321;
+    color: $cachet-secondary;
 
     &:hover,
     &:focus {
@@ -187,7 +188,7 @@ input {
     }
 
     &.btn-green {
-        background: #7ED321;
+        background: $cachet-secondary;
         color: white
     }
 
@@ -228,7 +229,7 @@ section {
     &.green {
         padding-top: 50px;
         padding-bottom: 50px;
-        background: #7ED321;
+        background: $cachet-primary;
         color: white;
 
         p {
@@ -250,7 +251,7 @@ section {
 
     /* GREY DIV */
     &.grey {
-        background: #f0f3f4;
+        background: $cachet-grey;
         padding-bottom: 80px;
         padding-top: 80px;
     }
