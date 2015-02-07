@@ -1,0 +1,7 @@
+{
+    "name": "CachetHQ.io",
+    "dependencies": {
+        "bootstrap-sass-official": "~3.3.3",
+        "ionicons": "~2.0.0"
+    }
+}
