@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace CachetHQ\Services;
 
-use App\User;
+use CachetHQ\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 

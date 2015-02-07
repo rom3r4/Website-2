@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace CachetHQ\Events;
 
 abstract class Event {
 
