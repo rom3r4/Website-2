@@ -1,9 +1,11 @@
-<?php namespace CachetHQ\Providers;
+<?php
+
+namespace CachetHQ\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class AppServiceProvider extends ServiceProvider {
-
+class AppServiceProvider extends ServiceProvider
+{
 	/**
 	 * Bootstrap any application services.
 	 *

@@ -1,0 +1,110 @@
+header {
+    background: url(../img/header.jpg) no-repeat center top;
+    padding-top: 250px;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+
+    background-size: 100%;
+    background-size: cover;
+
+    h1 {
+        color: white;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: 2px;
+        margin-bottom: 40px;
+        font-weight: 300;
+    }
+}
+
+section {
+    &.green {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: $cachet-primary;
+        color: white;
+
+        p {
+            color: white;
+            font-size: 16px;
+        }
+
+        i {
+            // font-size: 40px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+    }
+
+    /* GREY DIV */
+    &.grey {
+        background: $cachet-grey;
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+}
+
+.background-image-holder {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-size: cover !important;
+    z-index: 0;
+    background-position: 50% 50% !important;
+}
+
+.side-image {
+    padding: 0px;
+    position: relative;
+
+    .image-container {
+        overflow: hidden;
+        position: absolute;
+        height: 100%;
+        padding: 0px;
+        top: 0px;
+        &.pull-right {
+            right: 0px;
+        }
+    }
+    .content {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    h1 {
+        margin-bottom: 40px;
+    }
+    p {
+        font-size: 16px;
+        &.lead {
+            margin-bottom: 64px;
+            font-size: 20px;
+        }
+    }
+    &.text-heavy {
+        h1 {
+            margin-bottom: 32px;
+
+            p.lead {
+                margin-bottom: 40px;
+            }
+        }
+        .feature {
+            // margin-top: 64px;
+
+            h5 {
+                margin-bottom: 40px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

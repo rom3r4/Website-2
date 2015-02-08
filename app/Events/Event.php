@@ -1,6 +1,9 @@
-<?php namespace CachetHQ\Events;
+<?php
 
-abstract class Event {
+namespace CachetHQ\Events;
+
+abstract class Event
+{
 
 	//
 

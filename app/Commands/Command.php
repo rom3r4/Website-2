@@ -1,6 +1,9 @@
-<?php namespace CachetHQ\Commands;
+<?php
 
-abstract class Command {
+namespace CachetHQ\Commands;
+
+abstract class Command
+{
 
 	//
 
