@@ -22,11 +22,11 @@
 			</div>
 			<div class="col-md-4">
 				<h4><i class="ion-heart"></i> Beautiful</h4>
-				<p>From the status page itself, to the dashboard. Cachet is beautifulyl crafted.</p>
+				<p>From the status page, to the dashboard, right through to the code itself. Cachet is beautifully crafted everywhere.</p>
 			</div>
 			<div class="col-md-4">
 				<h4><i class="ion-planet"></i> Multilingual</h4>
-				<p>Cachet speaks several languages <strong>and</strong> you can contrinute to existing translations or provide new ones from within Cachet itself.</p>
+				<p>Cachet speaks several languages <strong>and</strong> you can contribute to existing translations or provide new ones from within Cachet itself.</p>
 			</div>
 		</div>
 	</div>
