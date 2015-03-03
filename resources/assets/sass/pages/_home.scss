@@ -23,7 +23,7 @@ section {
     &.green {
         padding-top: 50px;
         padding-bottom: 50px;
-        background: $cachet-primary;
+        background: $cachet-secondary;
         color: white;
 
         p {
@@ -48,6 +48,16 @@ section {
         background: $cachet-grey;
         padding-bottom: 80px;
         padding-top: 80px;
+    }
+
+    &.dark-grey {
+        background: $cachet-dark-grey;
+        padding-bottom: 80px;
+        padding-top: 60px;
+
+        h1 {
+            margin-bottom: 60px;
+        }
     }
 }
 

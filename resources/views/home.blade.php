@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<section class="grey text-heavy clearfix">
+<section class="dark-grey text-heavy clearfix">
     <div class="container">
         <div class="row">
             <div class="col-md-12 content">
