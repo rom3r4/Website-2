@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<div class="grey">
+<section class="subscribe-container">
     <div class="container">
         <div class="row mtb">
             <div class="col-md-12">
@@ -58,21 +58,21 @@
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<section class="dark-grey text-heavy">
+<section class="text-heavy">
     <div class="container">
         <div class="row">
             <div class="col-md-12 content">
                 <h1 class="text-center">Trusted by&hellip;</h1>
                 <div class="col-sm-4 feature">
-                    <img src="{!! asset('img/used-by/styleci.png') !!}" width="320">
+                    <img src="{!! asset('img/used-by/styleci.png') !!}" class="img-responsive">
                 </div>
                 <div class="col-sm-4 feature">
-                    <img src="{!! asset('img/used-by/styleci.png') !!}" width="320">
+                    <img src="{!! asset('img/used-by/styleci.png') !!}" class="img-responsive">
                 </div>
                 <div class="col-sm-4 feature">
-                    <img src="{!! asset('img/used-by/styleci.png') !!}" width="320">
+                    <img src="{!! asset('img/used-by/styleci.png') !!}" class="img-responsive">
                 </div>
             </div>
         </div>

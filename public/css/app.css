@@ -6427,14 +6427,42 @@ input {
     background: white;
     color: #2f2f2f; }
 
-footer {
-  padding-bottom: 80px;
-  padding-top: 80px;
+footer.primary {
+  background-color: #cfd9db;
+  padding: 60px 0 60px;
+  text-align: center; }
+  footer.primary h3 {
+    line-height: 36px; }
+  footer.primary p {
+    color: #fff;
+    width: 60%;
+    margin: 0 auto 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px; }
+  footer.primary .social-icon {
+    text-align: center;
+    font-size: 36px;
+    line-height: 76px;
+    color: #7ed321;
+    padding: 5px;
+    transition: all .3s; }
+    footer.primary .social-icon:hover {
+      color: #01579b;
+      transition: all .3s; }
+footer.secondary {
+  position: relative;
+  text-align: center;
+  padding: 39px 0 36px;
   background: #ecf0f1;
-  color: #333; }
-  footer i {
-    font-size: 25px;
-    margin-right: 18px; }
+  color: #999;
+  margin: 0 0;
+  font-size: 13px;
+  font-weight: 400; }
+  footer.secondary .copyright a {
+    color: #aaa; }
+    footer.secondary .copyright a:hover {
+      color: #FF6065; }
 
 header {
   background: url(../img/header.jpg) no-repeat center top;
@@ -6454,10 +6482,13 @@ header {
     font-weight: 300; }
 
 section {
-  /* GREY DIV */ }
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  section h1, section h2, section h3, section h4 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 60px; }
   section.green {
-    padding-top: 50px;
-    padding-bottom: 50px;
     background: #6DB81C;
     color: white; }
     section.green p {
@@ -6466,9 +6497,6 @@ section {
     section.green i {
       color: white;
       margin-bottom: 20px; }
-    section.green h4 {
-      font-weight: 700;
-      letter-spacing: 1px; }
   section.grey {
     background: #ecf0f1;
     padding-bottom: 80px;
@@ -6477,44 +6505,39 @@ section {
     background: #cfd9db;
     padding-bottom: 80px;
     padding-top: 60px; }
-    section.dark-grey h1 {
-      margin-bottom: 60px; }
 
-.background-image-holder {
-  position: absolute;
-  top: 0px;
-  height: 100%;
-  width: 100%;
-  background-size: cover !important;
-  z-index: 0;
-  background-position: 50% 50% !important; }
+.subscribe-container {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  background: #f4f4f4;
+  color: #888;
+  text-align: center; }
 
-.side-image {
-  padding: 0px;
-  position: relative; }
-  .side-image .image-container {
-    overflow: hidden;
-    position: absolute;
-    height: 100%;
-    padding: 0px;
-    top: 0px; }
-    .side-image .image-container.pull-right {
-      right: 0px; }
-  .side-image .content {
-    padding-top: 80px;
-    padding-bottom: 80px; }
-  .side-image h1 {
-    margin-bottom: 40px; }
-  .side-image p {
-    font-size: 16px; }
-    .side-image p.lead {
-      margin-bottom: 64px;
-      font-size: 20px; }
-  .side-image.text-heavy h1 {
-    margin-bottom: 32px; }
-    .side-image.text-heavy h1 p.lead {
-      margin-bottom: 40px; }
-  .side-image.text-heavy .feature h5 {
-    margin-bottom: 40px;
-    font-weight: 700;
-    text-transform: uppercase; }
+.subscribe {
+  margin-top: 60px; }
+  .subscribe h3 {
+    color: #555; }
+  .subscribe p {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px; }
+  .subscribe form {
+    margin-top: 40px;
+    margin-bottom: 20px; }
+    .subscribe form input {
+      width: 362px;
+      height: 52px; }
+    .subscribe form button {
+      width: 130px;
+      height: 52px; }
+
+.success-message, .error-message {
+  font-size: 22px;
+  line-height: 36px; }
+
+.success-message {
+  margin: 20px 0 10px 0; }
+
+.error-message {
+  margin: 10px 0;
+  color: #F00; }

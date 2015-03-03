@@ -20,9 +20,16 @@ header {
 }
 
 section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    h1, h2, h3, h4 {
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 60px;
+    }
+
     &.green {
-        padding-top: 50px;
-        padding-bottom: 50px;
         background: $cachet-secondary;
         color: white;
 
@@ -36,14 +43,8 @@ section {
             color: white;
             margin-bottom: 20px;
         }
-
-        h4 {
-            font-weight: 700;
-            letter-spacing: 1px;
-        }
     }
 
-    /* GREY DIV */
     &.grey {
         background: $cachet-grey;
         padding-bottom: 80px;
@@ -54,67 +55,58 @@ section {
         background: $cachet-dark-grey;
         padding-bottom: 80px;
         padding-top: 60px;
-
-        h1 {
-            margin-bottom: 60px;
-        }
     }
 }
 
-.background-image-holder {
-    position: absolute;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    background-size: cover !important;
-    z-index: 0;
-    background-position: 50% 50% !important;
+.subscribe-container {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    background: #f4f4f4;
+    color: #888;
+    text-align: center;
 }
 
-.side-image {
-    padding: 0px;
-    position: relative;
+.subscribe {
+    margin-top: 60px;
 
-    .image-container {
-        overflow: hidden;
-        position: absolute;
-        height: 100%;
-        padding: 0px;
-        top: 0px;
-        &.pull-right {
-            right: 0px;
-        }
+    h3 {
+        color: #555;
     }
-    .content {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-    h1 {
-        margin-bottom: 40px;
-    }
+
     p {
+        margin-top: 30px;
         font-size: 16px;
-        &.lead {
-            margin-bottom: 64px;
-            font-size: 20px;
-        }
+        line-height: 24px;
     }
-    &.text-heavy {
-        h1 {
-            margin-bottom: 32px;
 
-            p.lead {
-                margin-bottom: 40px;
-            }
+    form {
+        margin-top: 40px;
+        margin-bottom: 20px;
+
+        input {
+            width: 362px;
+            height: 52px;
         }
-        .feature {
-            // margin-top: 64px;
 
-            h5 {
-                margin-bottom: 40px;
-                font-weight: 700;
-                text-transform: uppercase;
-            }
+        button {
+            width: 130px;
+            height: 52px;
         }
     }
 }
+
+
+.success-message, .error-message {
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.success-message {
+    margin: 20px 0 10px 0;
+}
+
+.error-message {
+    margin: 10px 0;
+    color: #F00;
+}
+
