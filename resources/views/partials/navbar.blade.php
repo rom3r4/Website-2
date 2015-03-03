@@ -14,9 +14,9 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/">Home</a></li>
-                <li><a href="https://docs.cachethq.io">Documentation</a></li>
                 <li><a href="/">About</a></li>
-                <li><a href="/">Contact</a></li>
+                <li><a href="https://docs.cachethq.io" target="_blank">Documentation</a></li>
+                <li><a href="https://blog.cachethq.io" target="_blank">Blog</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

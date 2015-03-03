@@ -6,7 +6,7 @@
     <meta name="author" content="">
     <link rel="icon" href="/img/favicon.ico">
 
-    <title>CachetHQ</title>
+    <title>Cachet HQ</title>
 
     <!-- Custom styles for this template -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700,900' rel='stylesheet' type='text/css'>
