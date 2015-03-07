@@ -6,6 +6,7 @@
         <div class="row">
             <div class="col-md-12 centered">
                 <h1>Beautiful &amp; simple service statuses.</h1>
+                <h2>An open source status page system, for everyone.</h2>
                 <a class="btn btn-conf btn-green" href="https://github.com/cachethq/Cachet/archive/master.zip"><i class='ion-social-github'></i> Download from GitHub</a>
                 <a class="btn btn-conf btn-clear" href="https://demo.cachethq.io">See the demo</a>
             </div>
@@ -120,7 +121,7 @@
             <div class="col-md-6 col-md-offset-3 mts">
                 <form role='form' action="//cachethq.us9.list-manage.com/subscribe/post?u=654f358550ef074d6601475cd&amp;id=711cf8b66d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                     <label for="mce-EMAIL" class='sr-only'>Email Address  <span class="asterisk">*</span></label>
-                    <input type="email" value="" required name="EMAIL" class="subscribe-input" id="mce-EMAIL">
+                    <input type="email" value="" required name="EMAIL" class="subscribe-input" id="mce-EMAIL" placeholder="joe@cachet-rocks.io">
 
                     <button type="submit" class='btn btn-conf btn-clear' name="subscribe" id="mc-embedded-subscribe">Sign up</button>
 

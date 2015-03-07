@@ -6465,7 +6465,7 @@ footer {
       color: #FF6065; }
 
 header {
-  background: linear-gradient(rgba(94, 94, 94, 0.4), rgba(94, 94, 94, 0.4)), url(../img/header.jpg) no-repeat center top;
+  background: linear-gradient(rgba(94, 94, 94, 0.5), rgba(94, 94, 94, 0.5)), url(../img/header.jpg) no-repeat center top;
   padding-top: 250px;
   background-attachment: relative;
   background-position: center center;
@@ -6478,8 +6478,14 @@ header {
     font-size: 40px;
     line-height: 55px;
     letter-spacing: 2px;
-    margin-bottom: 40px;
     font-weight: 600; }
+  header h2 {
+    color: white;
+    font-size: 30px;
+    line-height: 33px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: 400; }
 
 section.grey.features i {
   font-size: 42px;

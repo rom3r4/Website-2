@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(rgba($cachet-icons, 0.4), rgba($cachet-icons, 0.4)), url(../img/header.jpg) no-repeat center top;
+    background: linear-gradient(rgba($cachet-icons, 0.5), rgba($cachet-icons, 0.5)), url(../img/header.jpg) no-repeat center top;
     padding-top: 250px;
     background-attachment: relative;
     background-position: center center;
@@ -14,8 +14,16 @@ header {
         font-size: 40px;
         line-height: 55px;
         letter-spacing: 2px;
-        margin-bottom: 40px;
         font-weight: 600;
+    }
+
+    h2 {
+        color: white;
+        font-size: 30px;
+        line-height: 33px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: 400;
     }
 }
 
