@@ -5,10 +5,25 @@
     <meta name="description" content="Cachet, the open source status page system, written in PHP atop the Laravel framework.">
     <meta name="author" content="James Brooks">
     <link rel="icon" href="/img/favicon.ico">
+    <meta property='fb:app_id' content='760338654003020'/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cachet HQ" />
+    <meta property="og:description" content="Cachet, the open source status page system, written in PHP atop the Laravel framework." />
+    <meta property="og:url" content="https://cachethq.io" />
+    <meta property="og:site_name" content="Cachet HQ" />
+    <meta property="og:image" content="/img/social/CachetFB-V.png" />
 
     <title>Cachet HQ - The open source status page system</title>
 
-    <!-- Custom styles for this template -->
+    <link rel="shortcut icon" href="/img/social/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/img/social/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/social/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/social/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/social/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/social/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/social/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/social/apple-touch-icon-152x152.png">
+
     <link href='//fonts.googleapis.com/css?family=Open+Sans:100,300,400,700,900' rel='stylesheet' type='text/css'>
     <link href="/css/app.css" rel="stylesheet">
 
