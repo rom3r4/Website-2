@@ -9,7 +9,7 @@
     <title>Cachet HQ</title>
 
     <!-- Custom styles for this template -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:100,300,400,700,900' rel='stylesheet' type='text/css'>
     <link href="/css/app.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
