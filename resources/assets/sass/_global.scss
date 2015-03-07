@@ -237,18 +237,22 @@ section {
 }
 
 footer {
-    position:relative;
-    text-align:center;
-    padding:39px 0 36px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background: $cachet-grey;
     color:#999;
-    margin: 0;
 
-    .copyright a {
+    .copyright {
         color:#aaa;
+        font-size: 16px;
+        font-weight: 300;
+    }
 
-        &:hover {
-            color: #FF6065;
+    .social-links {
+        a {
+            font-size: 36px;
+            line-height: 38px;
+            padding: 8px;
         }
     }
 }

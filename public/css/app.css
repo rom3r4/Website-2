@@ -6455,16 +6455,18 @@ section {
     margin-bottom: 20px; }
 
 footer {
-  position: relative;
-  text-align: center;
-  padding: 39px 0 36px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background: #ecf0f1;
-  color: #999;
-  margin: 0; }
-  footer .copyright a {
-    color: #aaa; }
-    footer .copyright a:hover {
-      color: #FF6065; }
+  color: #999; }
+  footer .copyright {
+    color: #aaa;
+    font-size: 16px;
+    font-weight: 300; }
+  footer .social-links a {
+    font-size: 36px;
+    line-height: 38px;
+    padding: 8px; }
 
 header {
   background: linear-gradient(rgba(94, 94, 94, 0.5), rgba(94, 94, 94, 0.5)), url(../img/header.jpg) no-repeat center top;
