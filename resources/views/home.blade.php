@@ -17,19 +17,19 @@
     <div class="container">
         <div class="row centered">
             <div class="col-sm-2 col-sm-offset-1 love">
-                <img src="{!! asset('img/used-by/blue-bay-travel.png') !!}">
+                <img src="/img/used-by/blue-bay-travel.png">
             </div>
             <div class="col-sm-2 love">
-                <img src="{!! asset('img/used-by/styleci.png') !!}">
+                <img src="/img/used-by/styleci.png">
             </div>
             <div class="col-sm-2 love">
-                <img src="{!! asset('img/used-by/blackpulsehosting.png') !!}">
+                <img src="/img/used-by/blackpulsehosting.png">
             </div>
             <div class="col-sm-2 love">
-                <img src="{!! asset('img/used-by/shoutcast.png') !!}">
+                <img src="/img/used-by/shoutcast.png">
             </div>
             <div class="col-sm-2 love">
-                <img src="{!! asset('img/used-by/beachfront-host.png') !!}">
+                <img src="/img/used-by/beachfront-host.png">
             </div>
         </div>
     </div>
