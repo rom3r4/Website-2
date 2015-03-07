@@ -70,7 +70,7 @@
                         </span>
                         <h3 class="mb">Supported in several languages</h3>
                         <p>We want to make it possible for anybody to use Cachet, not just the English speakers. Cachet supports several languages straight away, with more translations being worked on every day.</p>
-                        <p>A big thank you goes to CrowdIn for making this possible for us.</p>
+                        <p>Thank you to CrowdIn for supplying us with the platform to translate Cachet.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="feature-icon">
