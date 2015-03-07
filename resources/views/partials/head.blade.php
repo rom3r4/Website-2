@@ -2,11 +2,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Cachet, the open source status page system, written in PHP atop the Laravel framework.">
+    <meta name="author" content="James Brooks">
     <link rel="icon" href="/img/favicon.ico">
 
-    <title>Cachet HQ</title>
+    <title>Cachet HQ - The open source status page system</title>
 
     <!-- Custom styles for this template -->
     <link href='//fonts.googleapis.com/css?family=Open+Sans:100,300,400,700,900' rel='stylesheet' type='text/css'>
