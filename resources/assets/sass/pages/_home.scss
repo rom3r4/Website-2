@@ -1,13 +1,13 @@
 header {
-    background: url(../img/header.jpg) no-repeat center top;
+    background: linear-gradient(rgba($cachet-icons, 0.4), rgba($cachet-icons, 0.4)), url(../img/header.jpg) no-repeat center top;
     padding-top: 250px;
     background-attachment: relative;
     background-position: center center;
-    min-height: 700px;
-    width: 100%;
-
     background-size: 100%;
     background-size: cover;
+
+    min-height: 700px;
+    width: 100%;
 
     h1 {
         color: white;
@@ -15,98 +15,28 @@ header {
         line-height: 55px;
         letter-spacing: 2px;
         margin-bottom: 40px;
-        font-weight: 300;
+        font-weight: 600;
     }
 }
 
 section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-    h1, h2, h3, h4 {
-        font-weight: 700;
-        letter-spacing: 1px;
-        margin-bottom: 60px;
-    }
-
-    &.green {
-        background: $cachet-secondary;
-        color: white;
-
-        p {
-            color: white;
-            font-size: 16px;
-        }
-
+    &.grey.features {
         i {
-            // font-size: 40px;
-            color: white;
-            margin-bottom: 20px;
+            font-size: 42px;
+            color: $cachet-primary;
         }
     }
 
-    &.grey {
-        background: $cachet-grey;
-        padding-bottom: 80px;
+    &.primary-green {
         padding-top: 80px;
-    }
-
-    &.dark-grey {
-        background: $cachet-dark-grey;
         padding-bottom: 80px;
-        padding-top: 60px;
-    }
-}
-
-.subscribe-container {
-    margin: 0 auto;
-    padding-bottom: 50px;
-    background: #f4f4f4;
-    color: #888;
-    text-align: center;
-}
-
-.subscribe {
-    margin-top: 60px;
-
-    h3 {
-        color: #555;
-    }
-
-    p {
-        margin-top: 30px;
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    form {
-        margin-top: 40px;
-        margin-bottom: 20px;
-
-        input {
-            width: 362px;
-            height: 52px;
-        }
-
-        button {
-            width: 130px;
-            height: 52px;
+        &.subscribe {
+            .subscribe-input {
+                float: left;
+                width: 65%;
+                text-align: left;
+                margin-right: 2px;
+            }
         }
     }
 }
-
-
-.success-message, .error-message {
-    font-size: 22px;
-    line-height: 36px;
-}
-
-.success-message {
-    margin: 20px 0 10px 0;
-}
-
-.error-message {
-    margin: 10px 0;
-    color: #F00;
-}
-

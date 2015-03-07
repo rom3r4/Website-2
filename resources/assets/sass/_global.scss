@@ -1,17 +1,16 @@
 * {
     margin: 0;
     padding: 0px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 body {
     background: #fff;
     margin: 0;
     color: $cachet-base-dark;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
@@ -22,12 +21,18 @@ h2.bold {
 p {
     padding: 0;
     margin-bottom: 12px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
     color: #666;
     margin-top: 10px;
+    letter-spacing: 0.7px;
+}
+
+hr {
+    border: solid 1px #5a5a5a;
+    width: 100px;
 }
 
 html,
@@ -44,6 +49,8 @@ body {
     clear: both;
 }
 .centered {text-align: center}
+.mts {margin-top: 25px;}
+.mbs {margin-top: 25px;}
 .mt {margin-top: 50px;}
 .mb {margin-bottom: 50px;}
 .mtb {margin-top: 50px; margin-bottom: 50px;}
@@ -58,12 +65,7 @@ body {
     line-height: 0;
     width:100%;
 }
-::-moz-selection  {
-    color: #fff;
-    text-shadow:none;
-    background:$cachet-gray-light;
-}
-::selection {
+::-moz-selection, ::selection  {
     color: #fff;
     text-shadow:none;
     background:$cachet-gray-light;
@@ -91,7 +93,7 @@ a {
     }
 }
 
-.nopadding {
+.no-pad {
     padding: 0px !important;
     margin: 0px;
 }
@@ -141,24 +143,18 @@ a {
 input {
     font-size: 16px;
     min-height: 40px;
-    border-radius: 2px;
+    border-radius: 25px;
     line-height: 20px;
     padding: 11px 30px 12px;
     border: 1px solid #b9b9af;
     margin-bottom: 10px;
     background-color: #fff;
     transition: background-color 0.2s;
-}
+    color: $cachet-icons;
 
-.subscribe-input {
-    float: left;
-    width: 65%;
-    text-align: left;
-    margin-right: 2px;
-}
-
-.subscribe-submit {
-    right: 0;
+    &:focus {
+        outline: none;
+    }
 }
 
 .btn {
@@ -188,6 +184,68 @@ input {
         &:hover {
             background: white;
             color: #2f2f2f;
+        }
+    }
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    h1, h2, h3, h4 {
+        // font-weight: 700;
+        // letter-spacing: 1px;
+        // margin-bottom: 60px;
+    }
+
+    // Coloured sections.
+    &.grey {
+        background: $cachet-grey;
+
+        .love {
+            &.col-sm-2 {
+                height: 80px;
+                line-height: 80px;
+            }
+
+            img {
+                max-width: 140px;
+                max-height: 60px;
+                vertical-align: middle;
+            }
+        }
+    }
+
+    &.dark-grey {
+        background: $cachet-dark-grey;
+    }
+
+    &.primary-green {
+        background: $cachet-primary;
+        color: white;
+    }
+
+    &.primary-green {
+        i {
+            color: white;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+footer {
+    position:relative;
+    text-align:center;
+    padding:39px 0 36px;
+    background: $cachet-grey;
+    color:#999;
+    margin: 0;
+
+    .copyright a {
+        color:#aaa;
+
+        &:hover {
+            color: #FF6065;
         }
     }
 }
