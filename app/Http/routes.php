@@ -11,4 +11,9 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('/', [
+    'as'   => 'home',
+    'uses' => 'HomeController@index'
+]);
+
+Route::get('sitemap', 'SitemapsController@index');
