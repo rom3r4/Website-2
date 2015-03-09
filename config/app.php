@@ -136,6 +136,11 @@ return [
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 
+        /*
+         * Third Party Service Providers...
+         */
+        'Watson\Sitemap\SitemapServiceProvider',
+
 		/*
 		 * Application Service Providers...
 		 */
