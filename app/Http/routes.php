@@ -13,7 +13,7 @@
 
 Route::get('/', [
     'as'   => 'home',
-    'uses' => 'HomeController@index'
+    'uses' => 'HomeController@index',
 ]);
 
 Route::get('sitemap', 'SitemapsController@index');
