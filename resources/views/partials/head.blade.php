@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Cachet, the open source status page system, written in PHP atop the Laravel framework.">
     <meta name="author" content="James Brooks">
-    <link rel="icon" href="/img/favicon.ico">
+    <link rel="icon" href="/favicon.ico">
     <meta property='fb:app_id' content='760338654003020'/>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cachet HQ" />
