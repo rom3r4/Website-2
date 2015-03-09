@@ -6267,7 +6267,7 @@ body {
   background: #fff;
   margin: 0;
   color: #333;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300; }
@@ -6278,7 +6278,6 @@ h2.bold {
 p {
   padding: 0;
   margin-bottom: 12px;
-  font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 26px;
