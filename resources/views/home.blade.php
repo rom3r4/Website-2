@@ -40,7 +40,7 @@
     <div class="container">
         <div class="row mtb">
             <div class="col-md-12 centered">
-                <h2 title="Have a look at this">Have a dekko</h2>
+                <h2 title="Have a look at this">Have a dekko at this</h2>
                 <hr class="aligncenter mb">
                 <img class="img-responsive aligncenter" src="/img/main-interface.jpg">
             </div>
