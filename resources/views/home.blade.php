@@ -57,7 +57,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <span class="feature-icon">
+                        <span class="feature-icon hidden-xs">
                             <i class="ion-heart"></i>
                         </span>
                         <h3 class="mb">Beautifully crafted</h3>
@@ -65,7 +65,7 @@
                         <p>Not only is Cachet beautiful on the outside, but the inside too. The code is concise and easy to understand, portraying the right way to architect a web app.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="feature-icon">
+                        <span class="feature-icon hidden-xs">
                             <i class="ion-earth"></i>
                         </span>
                         <h3 class="mb">Supported in several languages</h3>
@@ -73,7 +73,7 @@
                         <p>Thank you to CrowdIn for supplying us with the platform to translate Cachet.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="feature-icon">
+                        <span class="feature-icon hidden-xs">
                             <i class="ion-wand"></i>
                         </span>
                         <h3 class="mb">JSON API</h3>
@@ -84,7 +84,7 @@
 
                 <div class="row">
                     <div class="col-md-4">
-                        <span class="feature-icon">
+                        <span class="feature-icon hidden-xs">
                             <i class="ion-settings"></i>
                         </span>
                         <h3 class="mb">Scheduled maintenance</h3>
@@ -92,7 +92,7 @@
                         <p>Once the maintenance time has passed, the incident drops into the timeline for prosperity.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="feature-icon">
+                        <span class="feature-icon hidden-xs">
                             <i class="ion-stats-bars"></i>
                         </span>
                         <h3 class="mb">Metrics</h3>
@@ -100,7 +100,7 @@
                         <p>This is great for displaying your number of Visitors, or new sign ups etc.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="feature-icon">
+                        <span class="feature-icon hidden-xs">
                             <i class="ion-key"></i>
                         </span>
                         <h3 class="mb">Two-factor authentication</h3>

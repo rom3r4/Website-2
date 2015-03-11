@@ -2316,14 +2316,15 @@ tbody.collapse.in {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   background-color: transparent;
   background-image: none;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   border-radius: 4px; }
   .navbar-toggle:focus {
-    outline: 0; }
+    outline: 0;
+ }
   .navbar-toggle .icon-bar {
     display: block;
     width: 22px;
@@ -2487,7 +2488,7 @@ tbody.collapse.in {
   .navbar-default .navbar-toggle {
     border-color: #ddd; }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: #ddd; }
+      background-color: transparent; }
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #888; }
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -6270,7 +6271,7 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300; }
+  font-weight: normal; }
 
 h2.bold {
   font-weight: 900; }
@@ -6278,7 +6279,7 @@ h2.bold {
 p {
   padding: 0;
   margin-bottom: 12px;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   color: #666;
@@ -6317,7 +6318,7 @@ html, body {
   margin-top: 50px; }
 
 .mb {
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
 
 .mtb {
   margin-top: 50px;
@@ -6394,7 +6395,7 @@ a {
       background-color: transparent;
       border-bottom: 2px solid #e7e7e7; }
     .navbar.navbar-default .navbar-collapse ul li {
-      margin-top: 10px; }
+      margin-top: 7px; }
       .navbar.navbar-default .navbar-collapse ul li a {
         font-size: 14px; }
 
@@ -6415,12 +6416,14 @@ input {
 .btn.btn-download {
   background: #FDE3A7; }
 .btn.btn-conf {
-  border-radius: 50px;
+  border-radius: 200px;
   margin-right: 15px;
-  font-size: 11px;
+  font-size: 14px;
+  font-weight: 550;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 14px 28px 13px 28px; }
+  padding: 14px 28px 13px 28px;
+	margin-bottom: 7px;}
 .btn.btn-green {
   background: #6DB81C;
   color: white; }
@@ -6468,13 +6471,15 @@ footer {
     padding: 8px; }
 
 header {
-  background: linear-gradient(rgba(94, 94, 94, 0.5), rgba(94, 94, 94, 0.5)), url(../img/header.jpg) no-repeat center top;
+  background: linear-gradient(rgba(94, 94, 94, 0.5), rgba(94, 94, 94, 0.5)), url(../img/header.jpg) no-repeat;
+  background-position: top center;
   padding-top: 250px;
+  padding-bottom: 100px;
   background-attachment: relative;
-  background-position: center center;
   background-size: 100%;
   background-size: cover;
   min-height: 700px;
+  max-height: 100%;
   width: 100%; }
   header h1 {
     color: white;
@@ -6489,7 +6494,24 @@ header {
     margin-top: 10px;
     margin-bottom: 40px;
     font-weight: 400; }
-
+@media (max-width: 767px) {
+  header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	min-height: 300px;
+  }
+  header .btn {
+  min-width: 100%;
+  }
+  header h1 {
+  font-size: 31px;
+  line-height: 40px;
+  }
+  header h2 {
+  font-size: 21px;
+  line-height: 30px;
+  }
+  }
 section.grey.features i {
   font-size: 42px;
   color: #7ED321; }
