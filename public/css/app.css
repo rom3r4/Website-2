@@ -6511,6 +6511,17 @@ header {
   font-size: 21px;
   line-height: 30px;
   }
+  .btn-conf {
+	min-width: 100%;
+  }
+  .subscribe-input {
+	min-width: 100%;
+  }
+  .subscribe h2 {
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+ }
   }
 section.grey.features i {
   font-size: 42px;
