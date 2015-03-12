@@ -2316,15 +2316,14 @@ tbody.collapse.in {
   float: right;
   margin-right: 15px;
   padding: 9px 10px;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin-top: 8px;
+  margin-bottom: 8px;
   background-color: transparent;
   background-image: none;
-  border: 0px solid transparent;
+  border: 1px solid transparent;
   border-radius: 4px; }
   .navbar-toggle:focus {
-    outline: 0;
- }
+    outline: 0; }
   .navbar-toggle .icon-bar {
     display: block;
     width: 22px;
@@ -2488,7 +2487,7 @@ tbody.collapse.in {
   .navbar-default .navbar-toggle {
     border-color: #ddd; }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: transparent; }
+      background-color: #ddd; }
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #888; }
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -6271,7 +6270,7 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal; }
+  font-weight: 300; }
 
 h2.bold {
   font-weight: 900; }
@@ -6279,7 +6278,7 @@ h2.bold {
 p {
   padding: 0;
   margin-bottom: 12px;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 16px;
   line-height: 26px;
   color: #666;
@@ -6318,7 +6317,7 @@ html, body {
   margin-top: 50px; }
 
 .mb {
-  margin-bottom: 30px; }
+  margin-bottom: 50px; }
 
 .mtb {
   margin-top: 50px;
@@ -6395,7 +6394,7 @@ a {
       background-color: transparent;
       border-bottom: 2px solid #e7e7e7; }
     .navbar.navbar-default .navbar-collapse ul li {
-      margin-top: 7px; }
+      margin-top: 10px; }
       .navbar.navbar-default .navbar-collapse ul li a {
         font-size: 14px; }
 
@@ -6416,14 +6415,12 @@ input {
 .btn.btn-download {
   background: #FDE3A7; }
 .btn.btn-conf {
-  border-radius: 200px;
+  border-radius: 50px;
   margin-right: 15px;
-  font-size: 14px;
-  font-weight: 550;
+  font-size: 11px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 14px 28px 13px 28px;
-	margin-bottom: 7px;}
+  padding: 14px 28px 13px 28px; }
 .btn.btn-green {
   background: #6DB81C;
   color: white; }
@@ -6471,15 +6468,13 @@ footer {
     padding: 8px; }
 
 header {
-  background: linear-gradient(rgba(94, 94, 94, 0.5), rgba(94, 94, 94, 0.5)), url(../img/header.jpg) no-repeat;
-  background-position: top center;
+  background: linear-gradient(rgba(94, 94, 94, 0.5), rgba(94, 94, 94, 0.5)), url(../img/header.jpg) no-repeat center top;
   padding-top: 250px;
-  padding-bottom: 100px;
   background-attachment: relative;
+  background-position: center center;
   background-size: 100%;
   background-size: cover;
   min-height: 700px;
-  max-height: 100%;
   width: 100%; }
   header h1 {
     color: white;
@@ -6494,35 +6489,7 @@ header {
     margin-top: 10px;
     margin-bottom: 40px;
     font-weight: 400; }
-@media (max-width: 767px) {
-  header {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	min-height: 300px;
-  }
-  header .btn {
-  min-width: 100%;
-  }
-  header h1 {
-  font-size: 31px;
-  line-height: 40px;
-  }
-  header h2 {
-  font-size: 21px;
-  line-height: 30px;
-  }
-  .btn-conf {
-	min-width: 100%;
-  }
-  .subscribe-input {
-	min-width: 100%;
-  }
-  .subscribe h2 {
-  font-size: 25px;
-  padding-left: 15px;
-  padding-right: 15px;
- }
-  }
+
 section.grey.features i {
   font-size: 42px;
   color: #7ED321; }
