@@ -27,10 +27,10 @@
                 <img src="/img/used-by/blackpulsehosting.png">
             </div>
             <div class="col-sm-2 love">
-                <img src="/img/used-by/shoutcast.png">
+                <img src="/img/used-by/jumplead.png">
             </div>
             <div class="col-sm-2 love">
-                <img src="/img/used-by/beachfront-host.png">
+                <img src="/img/used-by/shoutcast.png">
             </div>
         </div>
     </div>
