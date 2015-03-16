@@ -12,5 +12,7 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+    mix.sass('app.scss')
+       .version('dist/css/app.css')
+       .copy("vendor/bower_components/ionicons/fonts/", "public/fonts/");
 });
