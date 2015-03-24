@@ -17,11 +17,14 @@
 <section class="grey">
     <div class="container">
         <div class="row centered">
-            <div class="col-sm-2 col-sm-offset-1 love">
+            <div class="col-sm-2 love">
                 <img src="/img/used-by/blue-bay-travel.png">
             </div>
             <div class="col-sm-2 love">
                 <img src="/img/used-by/styleci.png">
+            </div>
+            <div class="col-sm-2 love">
+                <img src="/img/used-by/mozilla.png">
             </div>
             <div class="col-sm-2 love">
                 <img src="/img/used-by/blackpulsehosting.png">
