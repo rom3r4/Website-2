@@ -13,6 +13,7 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Home</a></li>
                 <li><a href="https://blog.cachethq.io">Blog</a></li>
                 <li><a href="https://docs.cachethq.io">Documentation</a></li>
             </ul>
