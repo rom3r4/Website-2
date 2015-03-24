@@ -15,12 +15,22 @@ class HomeController extends Controller
     }
 
     /**
-     * Show the application dashboard to the user.
+     * Show the website homepage to the user.
      *
      * @return Response
      */
     public function index()
     {
         return view('home');
+    }
+
+    /**
+     * Show the team page to the user.
+     *
+     * @return Response
+     */
+    public function team()
+    {
+        return view('team');
     }
 }

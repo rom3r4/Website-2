@@ -12,8 +12,13 @@
 */
 
 Route::get('/', [
-    'as'   => 'home',
+    'as'   => 'site.home',
     'uses' => 'HomeController@index',
+]);
+
+Route::get('team', [
+    'as'   => 'site.team',
+    'uses' => 'HomeController@team',
 ]);
 
 Route::get('sitemap', 'SitemapsController@index');
