@@ -7,7 +7,7 @@
             <div class="col-md-12 centered">
                 <h1>Beautiful &amp; simple service statuses.</h1>
                 <h2>An open source status page system, for everyone.</h2>
-                <a class="btn btn-conf btn-green" href="https://github.com/cachethq/Cachet/archive/master.zip" rel="download"><i class='ion-social-github'></i> Download from GitHub</a>
+                <a class="btn btn-conf btn-green" href="https://github.com/cachethq/cachethq.io"><i class='ion-social-github'></i> View on GitHub</a>
                 <a class="btn btn-conf btn-clear" href="https://demo.cachethq.io">See the demo</a>
             </div>
         </div>
