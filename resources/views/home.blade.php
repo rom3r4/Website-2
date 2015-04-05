@@ -92,7 +92,7 @@
                         </span>
                         <h3 class="mb">Scheduled maintenance</h3>
                         <p>It can't be avoided, sometimes you just need to perform maintenance. With Cachet, you can schedule these events ahead of time.</p>
-                        <p>Once the maintenance time has passed, the incident drops into the timeline for prosperity.</p>
+                        <p>Once the maintenance time has passed, the incident drops into the timeline for posterity.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="feature-icon hidden-xs">
