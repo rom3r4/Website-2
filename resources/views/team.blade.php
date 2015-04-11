@@ -21,6 +21,7 @@
                 <h3>
                     <a href="https://twitter.com/jbrooksuk" target="_blank"><i class="icon ion-social-twitter"></i></a>
                     <a href="https://github.com/jbrooksuk" target="_blank"><i class="icon ion-social-github"></i></a>
+                    <a href="https://james-brooks.uk" target="_blank"><i class="icon ion-earth"></i></a>
                 </h3>
             </div>
             <div class="col-xs-12 col-md-4">
@@ -30,6 +31,7 @@
                 <h3>
                     <a href="https://twitter.com/joecohens" target="_blank"><i class="icon ion-social-twitter"></i></a>
                     <a href="https://github.com/joecohens" target="_blank"><i class="icon ion-social-github"></i></a>
+                    <a href="https://joecohens.com" target="_blank"><i class="icon ion-earth"></i></a>
                 </h3>
             </div>
             <div class="col-xs-12 col-md-4">
@@ -39,6 +41,7 @@
                 <h3>
                     <a href="https://twitter.com/GrahamCampbell" target="_blank"><i class="icon ion-social-twitter"></i></a>
                     <a href="https://github.com/GrahamCampbell" target="_blank"><i class="icon ion-social-github"></i></a>
+                    <a href="https://grahamjcampbell.co.uk" target="_blank"><i class="icon ion-earth"></i></a>
                 </h3>
             </div>
         </div>
