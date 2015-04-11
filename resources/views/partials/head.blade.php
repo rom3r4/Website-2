@@ -2,13 +2,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Cachet, the open source status page system, written in PHP atop the Laravel framework.">
+    <meta name="description" content="Cachet the open source status page. Beautiful & simple status updates.">
     <meta name="author" content="James Brooks">
     <link rel="icon" href="/favicon.ico">
     <meta property='fb:app_id' content='760338654003020'/>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Cachet HQ" />
-    <meta property="og:description" content="Cachet, the open source status page system, written in PHP atop the Laravel framework." />
+    <meta property="og:description" content="Cachet the open source status page. Beautiful & simple status updates." />
     <meta property="og:url" content="https://cachethq.io" />
     <meta property="og:site_name" content="Cachet HQ" />
     <meta property="og:image" content="/img/social/CachetFB-V.png" />
