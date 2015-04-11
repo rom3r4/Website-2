@@ -236,22 +236,105 @@ section {
 }
 
 footer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    background: $cachet-grey;
-    color:#999;
+    .wrap {
+        background:#302f31;
+        color:#bbb8bf;
+        padding:75px 0;
+        font-size:14px;
+        font-size:1.4rem;
+        line-height:22px;
 
-    .copyright {
-        color:#aaa;
-        font-size: 16px;
-        font-weight: 300;
+        a {
+            color:#bbb8bf;
+            display:block;
+
+            &:hover {
+                color:#fff
+            }
+        }
+
+        h2 {
+            margin:0 0 28px 0;
+            color:#fff;
+            font-size:24px;
+            font-size:2.4rem;
+            font-weight:900;
+        }
+
+        p {
+            margin:0 0 24px 0;
+        }
+
+        form {
+            position:relative;
+
+            .form-control {
+                background:0 0;
+                border:2px solid #fff;
+                padding:0 46px 0 15px;
+                height:40px;
+                color:#fff;
+            }
+
+            .submit {
+                position:absolute;
+                right:16px;
+                top:10px;
+                border:0;
+                width:18px;
+                height:20px;
+                background-color: transparent;
+                outline:0;
+                padding:0;
+
+                &::before {
+                    font-family: Ionicons;
+                    content: "\f10b";
+                    color: #989798;
+                    font-size: 20px;
+                    line-height: 22px;
+                }
+            }
+        }
+
+        .socials {
+            a {
+                display:inline-block;
+                width:40px;
+                height:40px;
+                line-height:40px;
+                font-size:22px;
+                font-size:2.2rem;
+                color:#fff;
+                float:left;
+                margin:0 0 0 10px;
+                border-radius:4px;
+                background-clip:padding-box;
+                text-align:center;
+                box-shadow:0 3px 0 rgba(0,0,0,.1);
+
+                &:first-child {
+                    margin:0;
+                }
+
+                &.facebook {
+                    background:#3262b9;
+                    &:hover {
+                        background:#2d57a5;
+                    }
+                }
+
+                &.twitter {
+                    background:#3dd7e5;
+                    &:hover {
+                        background:#27d2e2;
+                    }
+                }
+            }
+        }
     }
 
-    .social-links {
-        a {
-            font-size: 36px;
-            line-height: 38px;
-            padding: 8px;
-        }
+    .copyright {
+        padding:50px 0 60px;
     }
 }
