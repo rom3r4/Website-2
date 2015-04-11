@@ -1,4 +1,6 @@
-<?php namespace CachetHQ\Http\Middleware;
+<?php
+
+namespace CachetHQ\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

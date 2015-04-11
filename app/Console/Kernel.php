@@ -1,4 +1,6 @@
-<?php namespace CachetHQ\Console;
+<?php
+
+namespace CachetHQ\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

@@ -1,4 +1,6 @@
-<?php namespace CachetHQ\Http\Requests;
+<?php
+
+namespace CachetHQ\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,4 +1,6 @@
-<?php namespace CachetHQ\Http;
+<?php
+
+namespace CachetHQ\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
