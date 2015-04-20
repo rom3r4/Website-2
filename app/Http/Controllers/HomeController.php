@@ -33,4 +33,14 @@ class HomeController extends Controller
     {
         return view('team');
     }
+
+    /**
+     * Show the faq page to the user.
+     *
+     * @return Response
+     */
+    public function faq()
+    {
+        return view('faq');
+    }
 }

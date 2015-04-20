@@ -21,4 +21,9 @@ Route::get('team', [
     'uses' => 'HomeController@team',
 ]);
 
+Route::get('faq', [
+    'as'   => 'site.faq',
+    'uses' => 'HomeController@faq',
+]);
+
 Route::get('sitemap', 'SitemapsController@index');

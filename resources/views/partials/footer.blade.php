@@ -33,6 +33,7 @@
                     <div class="content clearfix">
                         <a href="/">Home</a>
                         <a href="/team">Team</a>
+                        <a href="/faq">FAQ</a>
                         <a href="https://docs.cachethq.io">Docs</a>
                         <a href="https://blog.cachethq.io">Blog</a>
                     </div>
