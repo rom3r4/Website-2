@@ -16,6 +16,9 @@
             <div class="col-lg-12">
                 <h1>Can you install Cachet for me?</h1>
                 <p>We offer an installation service starting from $99 for standard installs. Contact us for more details.</p>
+
+                <h1>Do you have any stickers I can support Cachet with?</h1>
+                <p><a href="https://www.stickermule.com/user/1070642474/stickers">Yes we do</a>.</p>
             </div>
         </div>
     </div>
