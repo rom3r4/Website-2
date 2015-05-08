@@ -43,7 +43,7 @@
     <div class="container">
         <div class="row mtb">
             <div class="col-md-12 centered">
-                <h2 title="Have a look at this">Have a dekko at this</h2>
+                <h2 title="Have a dekko at this">Have a dekko at this</h2>
                 <hr class="aligncenter mb">
                 <img class="img-responsive aligncenter" src="/img/main-interface.jpg">
             </div>
@@ -111,6 +111,25 @@
                         <p>Compatible with the Google Authenticator app.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row mtb">
+            <div class="col-md-12 centered">
+                <h2 title="Decisions we make for you">Decisions we make for you</h2>
+                <hr class="aligncenter mb">
+                <ul class="list-unstyled">
+                    <li>Component statuses are hard set.</li>
+                    <li>Incident types are also hard set.</li>
+                    <li>The <a href="http://laravel.com">Laravel framework</a> is used.</li>
+                    <li>Google Authenticator is used for Two Factor Authentication.</li>
+                    <li>A minimal Dockerfile is provided.</li>
+                    <li>Bootstrap is used for design.</li>
+                </ul>
             </div>
         </div>
     </div>
