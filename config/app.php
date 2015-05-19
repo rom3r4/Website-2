@@ -139,6 +139,7 @@ return [
         /*
          * Third Party Service Providers...
          */
+        'Awjudd\FeedReader\FeedReaderServiceProvider',
         'Watson\Sitemap\SitemapServiceProvider',
 
         /*

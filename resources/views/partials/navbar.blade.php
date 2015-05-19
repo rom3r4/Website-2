@@ -14,7 +14,14 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/">Home</a></li>
-                <li><a href="https://blog.cachethq.io">Blog</a></li>
+                <li>
+                    <a href="https://blog.cachethq.io">
+                        Blog
+                        @if($recentArticles > 0)
+                        <span class="badge badge-info">{{ $recentArticles }}</span>
+                        @endif
+                    </a>
+                </li>
                 <li><a href="https://docs.cachethq.io">Documentation</a></li>
             </ul>
         </div><!--/.nav-collapse -->
