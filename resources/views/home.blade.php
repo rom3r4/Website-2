@@ -122,14 +122,16 @@
             <div class="col-md-12 centered">
                 <h2 title="Decisions we make for you">Decisions we make for you</h2>
                 <hr class="aligncenter mb">
-                <ul class="list-unstyled">
-                    <li>Component statuses are hard set.</li>
-                    <li>Incident types are also hard set.</li>
-                    <li>The <a href="http://laravel.com">Laravel framework</a> is used.</li>
-                    <li>Google Authenticator is used for Two Factor Authentication.</li>
-                    <li>A minimal Dockerfile is provided.</li>
-                    <li>Bootstrap is used for design.</li>
-                </ul>
+                <div class="panel panel-default">
+                    <ul class="list-group">
+                        <li class="list-group-item">Component statuses are hard set.</li>
+                        <li class="list-group-item">Incident types are also hard set.</li>
+                        <li class="list-group-item">The <a href="http://laravel.com">Laravel framework</a> is used.</li>
+                        <li class="list-group-item">Google Authenticator is used for Two Factor Authentication.</li>
+                        <li class="list-group-item">A minimal Dockerfile is provided.</li>
+                        <li class="list-group-item">Bootstrap is used for design.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
