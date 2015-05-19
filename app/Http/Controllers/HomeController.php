@@ -29,7 +29,7 @@ class HomeController extends Controller
         $recentArticles = 0;
         $newSpan = Carbon::now()->subWeek();
 
-        for ($i=0; $i < $feedItems; $i++) {
+        for ($i = 0; $i < $feedItems; $i++) {
             $feedItem = $blogFeed->get_item($i);
             $itemDate = Carbon::createFromFormat('Y-m-d', $feedItem->get_date('Y-m-d'));
             if ($itemDate->gte($newSpan)) {
