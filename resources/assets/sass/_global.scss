@@ -225,13 +225,16 @@ section {
     &.primary-green {
         background: $cachet-primary;
         color: white;
-    }
 
-    &.primary-green {
         i {
             color: white;
             margin-bottom: 20px;
         }
+    }
+
+    &.primary-blue {
+        background: $cachet-blue;
+        color: white;
     }
 }
 
