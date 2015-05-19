@@ -23,9 +23,9 @@
                 <div class="col-xs-6 col-sm-3 i">
                     <h2>Follow</h2>
                     <div class="socials">
-                        <a href="https://facebook.com/CachetHQ" title="Like us on Facebook" class="facebook"><i class="icon ion-social-facebook"></i></a>
-                        <a href="https://twitter.com/cachethq" title="Follow us on Twitter" class="twitter"><i class="icon ion-social-twitter"></i></a>
-                        <a href="https://github.com/cachethq" title="#" class="github"><i class="icon ion-social-github"></i></a>
+                        <a href="https://twitter.com/cachethq" target="_blank" title="Follow us on Twitter" class="twitter"><i class="icon ion-social-twitter"></i></a>
+                        <a href="https://github.com/cachethq" target="_blank" title="#" class="github"><i class="icon ion-social-github"></i></a>
+                        <a href="https://facebook.com/CachetHQ" target="_blank" title="Like us on Facebook" class="facebook"><i class="icon ion-social-facebook"></i></a>
                     </div>
                 </div>
                 <div class="col-xs-6 col-sm-3 i">
