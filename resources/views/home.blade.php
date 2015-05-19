@@ -62,53 +62,33 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <span class="feature-icon hidden-xs">
-                            <i class="ion-heart"></i>
-                        </span>
-                        <h3 class="mb">Beautifully crafted</h3>
-                        <p>Cachet has been beautifully built, both by design and code. Using Bootstrap 3, Cachet is completely responsive and works perfectly on mobile, tablet and desktop devices.</p>
-                        <p>Not only is Cachet beautiful on the outside, but the inside too. The code is concise and easy to understand, portraying the right way to architect a web app.</p>
+                        <h3 class="mb"><i class="ion-heart cachet-red feature-icons hidden-x"></i> Beautifully crafted</h3>
+                        <p>Cachet has been beautifully built, not only in design, but code too. Using Bootstrap 3, Cachet is completely responsive and works perfectly on all major devices.</p>
+                        <p>We've written the code behind Cachet to be concise and easy to understand, portraying the right way to architect a web app.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="feature-icon hidden-xs">
-                            <i class="ion-earth"></i>
-                        </span>
-                        <h3 class="mb">Supported in several languages</h3>
-                        <p>We want to make it possible for anybody to use Cachet, not just the English speakers. Cachet supports several languages straight away, with more translations being worked on every day.</p>
-                        <p>Thank you to CrowdIn for supplying us with the platform to translate Cachet.</p>
+                        <h3 class="mb"><i class="ion-earth cachet-blue feature-icons hidden-x"></i> Translated</h3>
+                        <p>Anybody can have a status page, even if you don't speak English. OurCachet supports several languages right off the bat, with translations being improved all of the time.</p>
+                        <p>Special thank you to CrowdIn for supplying us with the platform to translate Cachet.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="feature-icon hidden-xs">
-                            <i class="ion-wand"></i>
-                        </span>
-                        <h3 class="mb">JSON API</h3>
-                        <p>Sometimes it's just not possible to manually update your status page with incidents and component status changes, we totally get that.</p>
-                        <p>That's why Cachet is bundled with a simple to use, secure API system.</p>
+                        <h3 class="mb"><i class="ion-wand feature-icons icon h"></i> JSON API</h3>
+                        <p>Sometimes it's just not possible to manually update your status page with incidents and component status changes, we totally get thaat. It's why Cachet is bundled with a simple to use, secure API system.</p>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-4">
-                        <span class="feature-icon hidden-xs">
-                            <i class="ion-settings"></i>
-                        </span>
-                        <h3 class="mb">Scheduled maintenance</h3>
+                        <h3 class="mb"><i class="ion-settings cachet-pink feature-icons hidden-x"></i> Scheduled maintenance</h3>
                         <p>It can't be avoided, sometimes you just need to perform maintenance. With Cachet, you can schedule these events ahead of time.</p>
                         <p>Once the maintenance time has passed, the incident drops into the timeline for posterity.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="feature-icon hidden-xs">
-                            <i class="ion-stats-bars"></i>
-                        </span>
-                        <h3 class="mb">Metrics</h3>
-                        <p>Within the Dashboard you're able to setup metrics - a measurement of something. Using the API you can then send the metric a "point" or a measurement of the metric.</p>
-                        <p>This is great for displaying your number of Visitors, or new sign ups etc.</p>
+                        <h3 class="mb"><i class="ion-stats-bars cachet-teal feature-icons icon h"></i> Metrics</h3>
+                        <p>Within the Dashboard you're able to setup metrics - a way to measure something, whether it's Online Visitors, Error Rates or something completely random like "Cups of tea drank today". Using the API you can send a point to the metric.</p>
                     </div>
                     <div class="col-md-4">
-                        <span class="feature-icon hidden-xs">
-                            <i class="ion-key"></i>
-                        </span>
-                        <h3 class="mb">Two-factor authentication</h3>
+                        <h3 class="mb"><i class="ion-key cachet-yellow feature-icons hidden-x"></i> Two-factor authentication</h3>
                         <p>Need some extra security on your account? No problem, you can lock your account with Two-factor authentication.</p>
                         <p>Compatible with the Google Authenticator app.</p>
                     </div>
