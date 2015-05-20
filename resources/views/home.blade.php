@@ -27,7 +27,7 @@
                 <img src="/img/used-by/mozilla.png">
             </div>
             <div class="col-sm-2 love">
-                <img src="/img/used-by/blackpulsehosting.png">
+                <img src="/img/used-by/tideways.png">
             </div>
             <div class="col-sm-2 love">
                 <img src="/img/used-by/jumplead.png">
