@@ -12,6 +12,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
+
+    @media (max-width: $screen-xs-max) {
+        font-weight: 400;
+    }
 }
 
 h2.bold {
@@ -245,6 +249,12 @@ section {
                 max-width: 140px;
                 max-height: 60px;
                 vertical-align: middle;
+            }
+
+            @media (max-width: $screen-xs-max) {
+                img {
+                    margin-bottom: 10px;
+                }
             }
         }
     }
