@@ -14,11 +14,15 @@
         <script src="/js/retina-1.1.0.js"></script>
 
         <script>
-        (function ($, window, undefined) {
-            $('a[rel=download]').on('click', function () {
-                _gs('event', 'Download');
+        (function ($) {
+            $('a[rel=github]').on('click', function () {
+                _gs('event', 'GitHub');
             });
-        }(jQuery, window));
+
+            $('a[rel=demo]').on('click', function () {
+                _gs('event', 'Demo');
+            });
+        }(jQuery));
         </script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

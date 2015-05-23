@@ -2,18 +2,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Cachet the open source status page. Beautiful &amp; simple status updates with your own status page.">
+    <meta name="description" content="Cachet is a free, open source status page for your API, service or company. Built with all of the features that you'd expect from a status page, Cachet comes with a powerful API, a metric system, multiple user support, two factor authentication for added security and is easy to get setup. A powerful, self-hosted alternative to StatusPage.io and Status.io">
     <meta name="author" content="James Brooks">
     <link rel="icon" href="/favicon.ico">
     <meta property='fb:app_id' content='760338654003020'/>
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Cachet HQ" />
-    <meta property="og:description" content="Cachet the open source status page. Beautiful &amp; simple status updates with your own status page." />
+    <meta property="og:title" content="Cachet - The Open Source Status Page System" />
+    <meta property="og:description" content="Cachet is a free, open source status page for your API, service or company. Built with all of the features that you'd expect from a status page, Cachet comes with a powerful API, a metric system, multiple user support, two factor authentication for added security and is easy to get setup. A powerful, self-hosted alternative to StatusPage.io and Status.io" />
     <meta property="og:url" content="https://cachethq.io" />
     <meta property="og:site_name" content="Cachet HQ" />
     <meta property="og:image" content="/img/social/CachetFB-V.png" />
 
-    <title>@yield('pageTitle', 'Cachet HQ') - The open source status page system</title>
+    <title>@yield('pageTitle', 'Cachet HQ') - The Open Source Status Page System</title>
 
     <link rel="shortcut icon" href="/img/social/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="/img/social/apple-touch-icon.png">
