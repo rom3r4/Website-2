@@ -28,11 +28,6 @@ header {
 }
 
 section {
-    &.less {
-        padding-top: 20px;
-        padding-bottom: 40px;
-    }
-
     &.grey {
         &.features {
             i {
@@ -43,8 +38,6 @@ section {
     }
 
     &.primary-green {
-        padding-top: 80px;
-        padding-bottom: 80px;
         &.subscribe {
             .subscribe-input {
                 float: left;

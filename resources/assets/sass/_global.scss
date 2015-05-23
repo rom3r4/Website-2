@@ -7,11 +7,11 @@ body {
     background: #fff;
     margin: 0;
     color: $cachet-base-dark;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 500;
 }
 
 h2.bold {
@@ -24,9 +24,7 @@ p {
     font-weight: 300;
     font-size: 16px;
     line-height: 26px;
-    color: #666;
     margin-top: 10px;
-    letter-spacing: 0.7px;
 }
 
 hr {
@@ -128,8 +126,9 @@ a {
 .navbar {
     margin-bottom: 0;
     &.navbar-default {
-        background-color: #ffffff;
+        background-color: #F0F3F4;
         border-color: transparent;
+        border-bottom: solid 1px darken(white, 10%);
         letter-spacing: 1px;
         text-transform: uppercase;
         font-size: 11px;
@@ -213,6 +212,16 @@ section {
     padding-top: 40px;
     padding-bottom: 40px;
 
+    &.condensed {
+        padding-top: 10px;
+        padding-bottom: 20px;
+
+        &.further {
+            padding-top: 0;
+            padding-bottom: 10px;
+        }
+    }
+
     h1, h2, h3, h4 {
         // font-weight: 700;
         // letter-spacing: 1px;
@@ -221,7 +230,10 @@ section {
 
     // Coloured sections.
     &.grey {
-        background: $cachet-grey;
+        background: #f9f9f9;
+        &.level {
+            border-bottom: solid 1px darken(#f9f9f9, 10%);
+        }
 
         .love {
             &.col-sm-2 {
@@ -239,11 +251,17 @@ section {
 
     &.dark-grey {
         background: $cachet-dark-grey;
+        &.level {
+            border-bottom: solid 1px darken($cachet-dark-grey, 10%);
+        }
     }
 
     &.primary-green {
         background: $cachet-primary;
         color: white;
+        &.level {
+            border-bottom: solid 1px darken($cachet-primary, 10%);
+        }
 
         i {
             color: white;

@@ -1,11 +1,14 @@
 @extends('layouts.master')
 
+@section('pageTitle')
+Frequently Asked Questions
+@stop
+
 @section('content')
-<section class="grey">
+<section class="grey condensed further level">
     <div class="container">
-        <div class="row centered">
-            <h2>Frequently Asked Questions</h2>
-            <hr class="aligncenter">
+        <div class="row">
+            <h3>Frequently Asked Questions</h3>
         </div>
     </div>
 </section>
@@ -14,32 +17,22 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1>Can you install Cachet for me?</h1>
-                <p>We offer an installation service starting from $99 for standard installs. Contact us for more details.</p>
+                <p>Have a question that we haven't answered? Email us at support@cachethq.io and we'll get back to you as soon as we can.</p>
 
-                <h1>Do you have any stickers I can support Cachet with?</h1>
-                <p><a href="https://www.stickermule.com/user/1070642474/stickers">Yes we do</a>.</p>
+                <h3>Can I contribute to Cachet?</h3>
+                <p>We'd love for you to contribute! We're always looking for fresh designs, new code and features suggested. And don't worry, if you're not a developer or designer there are plenty of ways to contribute to Cachet.</p>
+                <p>Our servers aren't free and development time is limited. If you're able to donate, you can do so with Paypal, just get in touch! If you're looking for something different, you can contribute to <a href="https://docs.cachethq.io" target="_blank">documentation</a> and by spreading the word of Cachet.</p>
+
+                <h3>Can you install Cachet for me?</h3>
+                <p>Yeah, of course! We charge a one off fee which starts from $99 for Cachet installations. This is completely dependant on your requirements. For example, if you need load balancing setup then there is more overhead and an appropriate fee will be discussed before any work is carried out.</p>
+                <p>If you would like to discuss installation, please email us at support@cachethq.io and we'll be in touch.</p>
+
+                <h3>Do you have stickers?</h3>
+                <p>Every good startup has stickers, right? We certainly do! <a href="https://www.stickermule.com/user/1070642474/stickers">Stickermule marketplace</a>.</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="primary-green subscribe">
-    <div class="container">
-        <div class="row centered">
-            <h2>Don't miss anything. Subscribe to be updated.</h2>
-
-            <div class="col-md-6 col-md-offset-3 mts">
-                <form role='form' action="//cachethq.us9.list-manage.com/subscribe/post?u=654f358550ef074d6601475cd&amp;id=711cf8b66d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-                    <label for="mce-EMAIL" class='sr-only'>Email Address  <span class="asterisk">*</span></label>
-                    <input type="email" value="" required name="EMAIL" class="subscribe-input" id="mce-EMAIL" placeholder="joe@cachet-rocks.io">
-
-                    <button type="submit" class='btn btn-conf btn-clear' name="subscribe" id="mc-embedded-subscribe">Sign up</button>
-
-                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_654f358550ef074d6601475cd_711cf8b66d" tabindex="-1" value=""></div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
+@include('partials.newsletter')
 @endsection

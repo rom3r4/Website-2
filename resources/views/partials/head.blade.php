@@ -13,7 +13,7 @@
     <meta property="og:site_name" content="Cachet HQ" />
     <meta property="og:image" content="/img/social/CachetFB-V.png" />
 
-    <title>Cachet HQ - The open source status page system</title>
+    <title>@yield('pageTitle', 'Cachet HQ') - The open source status page system</title>
 
     <link rel="shortcut icon" href="/img/social/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="/img/social/apple-touch-icon.png">

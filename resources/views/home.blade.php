@@ -106,12 +106,11 @@
                 <hr class="aligncenter mb">
                 <div class="panel panel-default">
                     <ul class="list-group">
-                        <li class="list-group-item">Component statuses are hard set.</li>
-                        <li class="list-group-item">Incident types are also hard set.</li>
-                        <li class="list-group-item">The <a href="http://laravel.com">Laravel framework</a> is used.</li>
+                        <li class="list-group-item">Component &amp; Incident status "names" are hard set.</li>
+                        <li class="list-group-item">We use the <a href="http://laravel.com">Laravel framework</a>.</li>
                         <li class="list-group-item">Google Authenticator is used for Two Factor Authentication.</li>
-                        <li class="list-group-item">A minimal Dockerfile is provided.</li>
-                        <li class="list-group-item">Bootstrap is used for design.</li>
+                        <li class="list-group-item">Bootstrap is used for our layout framework.</li>
+                        <li class="list-group-item">Any <code>GET</code> method on the API is open to the public.</li>
                     </ul>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-<section class="primary-green subscribe less">
+<section class="primary-green subscribe {{ isset($condensed) && $condensed ? 'condensed' : null }}">
     <div class="container">
         <div class="row centered">
             <h2>Don't miss anything. Subscribe to be updated.</h2>
