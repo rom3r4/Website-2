@@ -3,7 +3,6 @@
 namespace CachetHQ\Composers;
 
 use Awjudd\FeedReader\Facades\FeedReader;
-use CachetHQ\Facades\Setting;
 use Carbon\Carbon;
 use Illuminate\View\View;
 
