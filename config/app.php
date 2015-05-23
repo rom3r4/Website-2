@@ -150,6 +150,7 @@ return [
         'CachetHQ\Providers\ConfigServiceProvider',
         'CachetHQ\Providers\EventServiceProvider',
         'CachetHQ\Providers\RouteServiceProvider',
+        'CachetHQ\Providers\ViewComposerServiceProvider',
 
     ],
 
