@@ -41,13 +41,13 @@ Meet the Team
                 </ul>
             </div>
             <div class="col-xs-12 col-md-4">
-                <img src="https://www.gravatar.com/avatar/838bf3ed69d559cb46956c509c9464af?s=120" height="100%" class="img-circle" alt="">
+                <img src="https://www.gravatar.com/avatar/045eff83f076c334afb367f5f046eabf?s=120" height="100%" class="img-circle" alt="">
                 <h3>Graham Campbell<br><small>Core Developer</small></h3>
                 <p>Graham is a prolific PHP developer and the second largest contributor to the Laravel framework.</p>
                 <ul class="list-inline">
                     <li><h1><a href="https://twitter.com/GrahamCampbell" target="_blank"><i class="ion-social-twitter"></i></a></h1></li>
                     <li><h1><a href="https://github.com/GrahamCampbell" target="_blank"><i class="ion-social-github"></i></a></h1></li>
-                    <li><h1><a href="https://grahamjcampbell.co.uk" target="_blank"><i class="ion-earth"></i></a></h1></li>
+                    <li><h1><a href="https://gjcampbell.co.uk" target="_blank"><i class="ion-earth"></i></a></h1></li>
                 </ul>
             </div>
         </div>
