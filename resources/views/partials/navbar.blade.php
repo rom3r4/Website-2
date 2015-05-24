@@ -24,6 +24,7 @@
                     </a>
                 </li>
                 <li><a href="https://docs.cachethq.io">Documentation</a></li>
+                <li><a href="https://status.cachethq.io">Status</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
