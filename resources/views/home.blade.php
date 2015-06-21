@@ -73,7 +73,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3 class="mb"><i class="ion-wand feature-icons icon h"></i> JSON API</h3>
-                        <p>Sometimes it's just not possible to manually update your status page with incidents and component status changes, we totally get thaat. It's why Cachet is bundled with a simple to use, secure API system.</p>
+                        <p>Sometimes it's just not possible to manually update your status page with incidents and component status changes, we totally get that. It's why Cachet is bundled with a simple to use, secure API system.</p>
                     </div>
                 </div>
 
