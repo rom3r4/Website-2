@@ -1,15 +1,8 @@
-<!-- Footer -->
 <footer id="footer">
     <div class="wrap">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-3 i">
-                    <h2>Cachet HQ</h2>
-                    <div class="content">
-                        <a href='&#109;ail&#116;o&#58;su%&#55;0%70&#37;&#54;Frt&#37;40ca%63hethq&#46;%69&#111;'>s&#117;ppor&#116;&#64;c&#97;c&#104;eth&#113;&#46;io</a>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-3 i">
+                <div class="col-xs-12 col-sm-6 i">
                     <h2>Newsletter</h2>
                     <form role='form' action="//cachethq.us9.list-manage.com/subscribe/post?u=654f358550ef074d6601475cd&amp;id=711cf8b66d" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                         <label for="mce-EMAIL" class='sr-only'>Email Address  <span class="asterisk">*</span></label>
