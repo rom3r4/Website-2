@@ -10,10 +10,10 @@
     <meta property="og:title" content="Cachet - The Open Source Status Page System" />
     <meta property="og:description" content="Cachet is a free, open source status page for your API, service or company. Built with all of the features that you'd expect from a status page, Cachet comes with a powerful API, a metric system, multiple user support, two factor authentication for added security and is easy to get setup. A powerful, self-hosted alternative to StatusPage.io and Status.io" />
     <meta property="og:url" content="https://cachethq.io" />
-    <meta property="og:site_name" content="Cachet HQ" />
+    <meta property="og:site_name" content="Cachet" />
     <meta property="og:image" content="/img/social/CachetFB-V.png" />
 
-    <title>@yield('pageTitle', 'Cachet HQ') - The Open Source Status Page System</title>
+    <title>@yield('pageTitle', 'Cachet') - The Open Source Status Page System</title>
 
     <link rel="shortcut icon" href="/img/social/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="/img/social/apple-touch-icon.png">
